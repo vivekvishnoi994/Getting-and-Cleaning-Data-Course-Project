@@ -1,0 +1,16 @@
+Code Book for the script:
+List of all Variables used:
+1)test: dataframe consisting of test data 
+2)test_labels: dataframe consisting activity for each row of test data
+3)test_subject: dataframe consisting subject for each row of test data
+4)train: dataframe consisting of train data 
+5)train_labels: dataframe consisting activity for each row of train data
+6)train_subject: dataframe consisting subject for each row of train data
+7)features: dataframe consisting variable names for each columns of test or train dataframe
+8)test_labels_vector: vector having activity for each row of test data
+9)test_subject_vector: vector having subject for each row of test data
+10)train_labels_vector: vector having activity for each row of train data
+11)train_subject_vector: vector having subject for each row of train data
+12)meansstd: vector containing column number corresponding to mean or standard deviation measurements
+13)completeData: merged dataframe having both test and train data
+14)tidyData: final dataframe to be produced as output
